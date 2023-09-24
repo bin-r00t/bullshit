@@ -1,24 +1,24 @@
-import { isAction } from "@reduxjs/toolkit";
 import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="flex space-x-3">
+    <header className="flex space-x-3 text-white bg-black text-lg p-5">
       <NavLink
-        to={"/"}
-        className={(isActive) => (isActive ? "active-nav-link" : null)}
+        to="/"
+        className={({isActive}) => (isActive ? "bg-white text-black" : null)}
+        end
       >
         Home
       </NavLink>
       <NavLink
-        to={"article"}
-        className={(isActive) => (isActive ? "active-nav-link" : null)}
+        to="/article"
+        className={({isActive}) => (isActive ? "bg-white text-black" : null)}
       >
         Article
       </NavLink>
       <NavLink
-        to={"asdf"}
-        className={(isActive) => (isActive ? "active-nav-link" : null)}
+        to="/NotFound"
+        className={({isActive}) => (isActive ? "bg-white text-black" : null)}
       >
         404
       </NavLink>
