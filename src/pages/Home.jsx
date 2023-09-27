@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="home h-1 flex-1 bg-gray-300 text-black text-lg font-bold">
+    <div className="container mx-auto home h-1 flex-1 bg-white text-black text-lg font-bold">
       home
     </div>
   );
