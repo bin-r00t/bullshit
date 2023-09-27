@@ -1,6 +1,6 @@
 function Arcticle() {
   return (
-    <div className="article-list space-y-7 p-7">
+    <div className="container mx-auto my-7 article-list space-y-7">
       <div className="article-item border border-gray-200 p-3">
         <h2 className="article-title font-semibold text-2xl leading-wider">测试标题1</h2>
         <section className="meta text-gray-600 flex space-x-5 items-center">
