@@ -18,7 +18,7 @@ function Home() {
 
         <section className="most-popular-post"></section>
 
-        <section className="category mt-8 flex space-x-5">
+        <section className="category my-12 flex space-x-5">
           <Category />
           <Category />
         </section>

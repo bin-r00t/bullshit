@@ -37,8 +37,8 @@ function Category(props) {
     },
   ];
   return (
-    <div className="category bg-red-200 w-full">
-      <h2 className="category-title font-bold text-2xl">Sports</h2>
+    <div className="category w-full">
+      <h2 className="category-title font-bold text-2xl mb-4">Sports</h2>
       <div className="category-content flex flex-col space-y-5">
         {items.map((item) => (
           <CategoryItem
