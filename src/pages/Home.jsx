@@ -16,7 +16,10 @@ function Home() {
           <div className="article-item rounded-xl bg-slate-400">1</div>
         </section>
 
-        <section className="most-popular-post"></section>
+        <section className="most-popular-post">
+          <h1 className="text-3xl text-center my-10">Most Popular Posts</h1>
+          <section className="most-popular-post__list h-96 bg-slate-400 rounded"></section>
+        </section>
 
         <section className="category my-12 flex space-x-5">
           <Category />
